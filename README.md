@@ -1,5 +1,7 @@
 # LookML Network Visualizer
 
+[![pypi package](https://img.shields.io/pypi/v/lookml_visualizer.svg)](https://pypi.org/project/lookml_visualizer/)
+
 **TL;DR** Visualize LookML contents as an interactive Plotly figure.
 
 Built on top of `lookml-tools`'s [grapher](https://github.com/ww-tech/lookml-tools/blob/master/lkmltools/grapher/lookml_grapher.py). Requires NetworkX and Plotly.  
@@ -31,5 +33,5 @@ $ pip install lookml_visualizer
 Also, if not installed, need to install PyGraphviz
 
 ```bash
-$ brew install PyGraphviz
+$ brew install graphviz
 ```
