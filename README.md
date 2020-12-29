@@ -31,6 +31,7 @@ Example2: A large project
 ![](./examples/lookml_visualizer_sample2.gif)
 
 <hr>
+
 **Plot layouts**
 
 The network plot can have different layouts. The following example shows how to pass a different plot layout:
