@@ -22,11 +22,4 @@ class Grapher:
         # create nx DiGraph object
         g = grapher.create_graph()
 
-        # plot
-        # args = {}
-        # args["g"] = g
-        # args["filename"] = output
-        # args["title"] = title
-        # grapher.plot_graph(**args)
-
         return grapher, g
