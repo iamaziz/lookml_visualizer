@@ -20,10 +20,28 @@ To save the interactive plot as an HTML file:
 network.fig.save_to_html(output_name='my_lookml_network.html')
 ```
 
-**Example**
+### Examples
+
+Example1: A tiny project
 
 ![](./examples/lookml_visualizer_sample1.gif)
 
+Example2: A large project
+
+![](./examples/lookml_visualizer_sample2.gif)
+
+<hr>
+**Plot layouts**
+
+The network plot can have different layouts. The following example shows how to pass a different plot layout:
+
+```python
+network = PlotNetwork(paths, plot_layout='dfp')
+```
+which will display the same network in example 2 (above) in this layout:
+![image](https://user-images.githubusercontent.com/3298308/103260846-2838b500-496d-11eb-9f01-ab15704983e6.png)
+
+> `plot_layout` options: 'dot', 'twopi', 'fdp', 'sfdp', 'circo'
 
 ### Install
 
