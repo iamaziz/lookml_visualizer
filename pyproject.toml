@@ -11,5 +11,8 @@ description-file = "README.md"
 requires = [
     "lookml-tools>=2.0.5",
     "networkx==2.5",
-    "plotly==4.14.1"
+    "plotly==4.14.1",
+    "matplotlib==3.3.3",
+    "lkml==0.1.1",
+    "pydot==1.4.1"
 ]

@@ -28,3 +28,8 @@ network.fig.save_to_html(output_name='my_lookml_network.html')
 ```bash
 $ pip install lookml_visualizer
 ```
+Also, if not installed, need to install PyGraphviz
+
+```bash
+$ brew install PyGraphviz
+```
