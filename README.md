@@ -2,9 +2,9 @@
 
 [![pypi package](https://img.shields.io/pypi/v/lookml_visualizer.svg)](https://pypi.org/project/lookml_visualizer/)
 
-**TL;DR** Visualize [LookML](https://docs.looker.com/data-modeling/learning-lookml/what-is-lookml) contents as an interactive Plotly figure.
+**TL;DR** Visualize [LookML](https://docs.looker.com/data-modeling/learning-lookml/what-is-lookml) contents as a network diagram in an interactive Plotly figure.
 
-Built on top of `lookml-tools`'s [grapher](https://github.com/ww-tech/lookml-tools/blob/master/lkmltools/grapher/lookml_grapher.py). Requires NetworkX and Plotly.  
+Built on top of `lookml-tools`'s [grapher](https://github.com/ww-tech/lookml-tools/blob/master/lkmltools/grapher/lookml_grapher.py). Requires NetworkX, graphviz, and Plotly.
 
 ### Getting Started
 
@@ -37,7 +37,7 @@ Example2: A large project
 The network plot can have different layouts. The following example shows how to pass a different plot layout:
 
 ```python
-network = PlotNetwork(paths, plot_layout='dfp')
+network = PlotNetwork(paths, plot_layout='fdp')
 ```
 which will display the same network in example 2 (above) in this layout:
 ![image](https://user-images.githubusercontent.com/3298308/103260846-2838b500-496d-11eb-9f01-ab15704983e6.png)

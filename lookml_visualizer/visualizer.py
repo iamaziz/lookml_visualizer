@@ -53,7 +53,7 @@ class Visualizer:
 
     @staticmethod
     def plotly_lookml(
-        G: DiGraph, color_map: List[str], plot_layout: str = "fdp"
+        G: DiGraph, color_map: list[str], plot_layout: str = "fdp"
     ) -> go.Figure:
         """Create an interactive plotly figure for the input `DiGraph` network
 
